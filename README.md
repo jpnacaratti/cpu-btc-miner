@@ -1,4 +1,10 @@
 # CPU Bitcoin miner
+
+[![Python 3.10.14](https://img.shields.io/badge/Python-3.10.14-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Stratum protocol](https://img.shields.io/badge/protocol-Stratum-orange)](https://en.bitcoin.it/wiki/Stratum_mining_protocol)
+[![MIT License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/jpnacaratti/cpu-btc-miner)](https://github.com/jpnacaratti/cpu-btc-miner)
+
 A simple Bitcoin miner implemented in pure Python, designed for CPU mining with support for pool mining via the Stratum protocol. This miner allows you to connect to a mining pool and participate in the Bitcoin network by contributing your CPU's computational power to help process transactions and secure the network.
 
 This miner only supports the low difficulty public pool: https://web.public-pool.io/#/
@@ -29,3 +35,7 @@ python main.py
 - [ ] Add handling in case the user is not connected to Wifi
 - [ ] Add combined hashrate for all threads
 - [ ] Compatibility for cases where the pool does not have a version mask
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
